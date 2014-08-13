@@ -1,4 +1,4 @@
-grocery_list = ["blueberries","strawberries","milk","eggs"]
+grocery_list = ["blueberries","strawberries","milk","eggs","salmon"]
 
 def food_list(list)
   list.each do | item |
@@ -22,6 +22,9 @@ puts grocery_list[1]
 
 puts grocery_list.sort
 
+puts grocery_list.pop
+
+puts grocery_list << "salmon"
 
 
 
