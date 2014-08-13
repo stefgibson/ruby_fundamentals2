@@ -18,4 +18,6 @@ else
   puts "You don't need to get banannas!"
 end
 
+puts grocery_list[1]
+
 
